@@ -29,7 +29,7 @@ public class Blog {
     @JoinColumn
     private List<Image>imageList;
 
-    public Blog(User user,String content,String title ) {
+    public Blog(User user,String title,String content ) {
         this.user = user;
         this.content = content;
         this.title = title;
