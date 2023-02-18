@@ -30,9 +30,9 @@ public class Blog {
     private List<Image>imageList;
 
     public Blog(User user,String content,String title ) {
-        this.title = title;
-        this.content = content;
         this.user = user;
+        this.content = content;
+        this.title = title;
     }
 
     public Blog() {
